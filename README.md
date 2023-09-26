@@ -1,4 +1,4 @@
-# Assignment 5 - University-of-Adelaide-Bx-Masters / BIOTECH-7005-BIOINF-3000
+# 2023 - Assignment 5 - University-of-Adelaide-Bx-Masters / BIOTECH-7005-BIOINF-3000
 
 ## Branches
 
@@ -9,20 +9,7 @@ This repository has 2 branches:
 
 ## Data files
 
-The "data" and "doc" directories contains 35 files each:
-
-```
-BIOINF_3000_2022-1
-BIOINF_3000_2022-2
-BIOINF_3000_2022-3
-....
-BIOINF_3000_2022-34
-BIOINF_3000_2022-35
-```
-
-These correspond to the name of the Virtual Machine you were assigned at the start of the course.
-
-If you're on your VM, you can get this by typing "hostname" on the command prompt
+The "data" and "doc" directories contains files that correspond to your student number
 
 You should ONLY work on the files assigned to you.
 
@@ -33,7 +20,7 @@ These files have had simulated errors created them, there are two types:
 | Insertion                          | Severity |
 |------------------------------------|----------|
 | XXXXXXX                            | High     |
- | lower_case_word -> UPPER_CASE_WORD | Low |
+| lower_case_word -> UPPER_CASE_WORD | Low      |
 
 There are a maximum of 3 types of each error in each file.
 
