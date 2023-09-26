@@ -12,7 +12,7 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 echo "branch,filename,grade,files_match,case_insensitive_match,x_strip_match"
 
-for data_filename in ${DATA_DIR}/BIOINF*;
+for data_filename in ${DATA_DIR}/a*.txt;
 do
     BASENAME=$(basename ${data_filename})
     original_data_filename=${ORIGINAL_DATA_DIR}/${BASENAME}
