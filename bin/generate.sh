@@ -2,11 +2,13 @@
 
 # This script requires 'faker': python -m pip install faker
 
-# We want to generate individual data for each student, and use the number for the assigned VM (35)
-NUM_STUDENTS=35
-PREFIX=BIOINF_3000_2022-
+FULL_PATH_TO_SCRIPT="$(realpath "${BASH_SOURCE[-1]}")"
+THIS_DIR=$(dirname ${FULL_PATH_TO_SCRIPT})
+file="${THIS_DIR}/student_list.txt"
 
-for ((i=1;i<=NUM_STUDENTS;i++)); do
-    faker paragraph -l en -r 10 | tr '[:upper:]' '[:lower:]' > "${PREFIX}${i}"
-done
+
+while IFS= read -r student_id; do
+  faker paragraph -l en -r 10 | tr '[:upper:]' '[:lower:]' > "${student_id}.txt"
+done < "$file"
+
 
