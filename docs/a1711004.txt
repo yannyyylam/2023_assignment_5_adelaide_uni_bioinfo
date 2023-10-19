@@ -4,7 +4,7 @@
 
 ### Changed
 
-- v1.1.0 The presence of XXXXXXX which is considered as high severity bug (#c38e69b)
+- v1.1.0 The presence of XXXXXXX which is considered as high severity bug (stable 35393cf)
 
 ## [1.0.0] - 2023-10-06
 ### Added
