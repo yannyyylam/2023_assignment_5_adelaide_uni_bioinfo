@@ -4,7 +4,7 @@
 
 ### Changed
 
-- v1.1.0 The presence of XXXXXXX which is considered as high severity bug (stable 35393cf)
+- v1.1.0 [Removed high severity bug](https://github.com/davmlaw/2023_assignment_5_adelaide_uni_bioino/issues/22) - deleting "XXXXXXX"s which are considered as high severity bug
 
 ## [1.0.0] - 2023-10-06
 ### Added
