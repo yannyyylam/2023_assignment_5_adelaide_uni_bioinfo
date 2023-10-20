@@ -1,5 +1,11 @@
 ## [unreleased]
 
+## [1.2.0] - 2023-10-20
+
+### Changed
+
+- v1.2.0 The UPPER CASE letters to lower case letters which is considered as low severity bug (main 903bdde)
+
 ## [1.1.0] - 2023-10-19
 
 ### Changed
