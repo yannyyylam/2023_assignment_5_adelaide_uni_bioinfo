@@ -4,13 +4,13 @@
 
 ### Changed
 
-- v1.2.0 The UPPER CASE letters to lower case letters which is considered as low severity bug (main 903bdde)
+- v1.2.0 [Removed low severity bug](https://github.com/davmlaw/2023_assignment_5_adelaide_uni_bioinfo/issues/23) - replacing UPPER CASE letters to lower case letters which is considered as low severity bug
 
 ## [1.1.0] - 2023-10-19
 
 ### Changed
 
-- v1.1.0 The presence of XXXXXXX which is considered as high severity bug (#c38e69b)
+- v1.1.0 [Removed high severity bug](https://github.com/davmlaw/2023_assignment_5_adelaide_uni_bioinfo/issues/22) - deleting "XXXXXXX"s which are considered as high severity bug
 
 ## [1.0.0] - 2023-10-06
 ### Added
